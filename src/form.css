@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+  padding: 30px;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+}
+
+input::placeholder {
+  font-size: 1em;
+  font-style: italic;
+}
+
+input {
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+    margin-top: 30px;
+}
